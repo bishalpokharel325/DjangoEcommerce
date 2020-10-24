@@ -20,19 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962b3f6e-8f1f-41a9-be59-84f321af02ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/static/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/static/images/cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/layout/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/layout/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/layout/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/master/master.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/pages/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/pages/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/pages/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/templates/frontend/layout/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/layout/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce/store/templates/frontend/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ecommerce/store/templates/frontend/pages/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +51,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ecommerce/store/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DjangoJobPortal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,5 +84,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603386333517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603386333517" />
   </component>
 </project>
