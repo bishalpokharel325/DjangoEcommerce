@@ -2,40 +2,18 @@
 {% load static %}
 {% block content %}
 <div class="row">
-    <div class="col-lg-4">
-    <div class="box-element">
-        <img src="{% static 'images/placeholder.png' %}" alt="" class="thumbnail">
-        <h6><strong>Product</strong></h6>
-        <hr>
-        <button class="btn btn-outline-second">Add To Cart</button>
-        <button class="btn-outline-success">View</button>
-        <h4 style="display:inline-block;float:right"><strong>$20</strong></h4>
-
-    </div>
-    </div>
+    {% for product in products %}
     <div class="col-lg-4">
         <div class="box-element">
-            <img src="{% static 'images/placeholder.png' %}" alt="" class="thumbnail">
-            <h6><strong>Product</strong></h6>
+            <a href="{{product.image.url}}"><img src="{{product.image.url}}" alt="" class="thumbnail"></a>
+            <h6><strong>{{product.name}}</strong></h6>
             <hr>
-        <button class="btn btn-outline-second">Add To Cart</button>
+        <button type="button" class="btn btn-outline-dark">Add to Cart</button>
         <button class="btn-outline-success">View</button>
-        <h4 style="display:inline-block;float:right"><strong>$20</strong></h4>
-
+        <h4 style="display:inline-block;float:right"><strong>${{product.price|floatformat:2}}</strong></h4>
     </div>
 
     </div>
-    <div class="col-lg-4">
-        <div class="box-element">
-            <img src="{% static 'images/placeholder.png' %}" alt="" class="thumbnail">
-            <h6><strong>Product</strong></h6>
-            <hr>
-        <button class="btn btn-outline-second">Add To Cart</button>
-        <button class="btn-outline-success">View</button>
-        <h4 style="display:inline-block;float:right"><strong>$20</strong></h4>
-
-    </div>
-
-    </div>
+    {% endfor %}
 </div>
 {% endblock %}
